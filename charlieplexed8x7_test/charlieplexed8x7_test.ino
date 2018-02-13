@@ -63,8 +63,7 @@ unsigned long t = 0;
 const int startingPinOffset = 1;//used to convert the dx values to the correct pins
 
 void setup() {
-  Serial.begin(9600);
-  target = 49;
+  target = 1;
   ledSelect(target);
   //delay(5000);
   t=millis()+500;
@@ -146,9 +145,6 @@ int ledSelect (int d) {
 }
 
 int ledOn (int *LED) {
-  //  for (int i = 1; i < 7; i++) {
-  //    pinMode (i + startingPinOffset, INPUT);
-  //  }
   pinMode(LED[1] + startingPinOffset, OUTPUT);
   digitalWrite(LED[1] + startingPinOffset, HIGH);
   pinMode(LED[0] + startingPinOffset, OUTPUT);
