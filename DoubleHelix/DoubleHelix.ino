@@ -33,12 +33,12 @@ const float driftForce = 0.4;         // The visual amount of drift. I like 0.4 
 
 // On every other column, light the LEDs between the sine waves, resembling the nucleotides of a DNA molecule.
 // This looks good if we switch between lighting odd columns, then even columns -- the molecule appears to be moving.
-const float barPhaseIncrement = 0.09; // Bar movement speed. Plz use values between 0..1 . I like 0.09 .
+const float barPhaseIncrement = 0.01; // Bar movement speed. Plz use values between 0..1 . I like 0.09 .
 
 // Brightness values. Range is 0..7
 const byte lightSineBrightness = 7;
-const byte darkSineBrightness = 4;
-const byte barBrightness = 1;
+const byte darkSineBrightness = 5;
+const byte barBrightness = 3;
 
 // (End tweak section)
 /////////////////////////////////////////////////////////////////////////////
