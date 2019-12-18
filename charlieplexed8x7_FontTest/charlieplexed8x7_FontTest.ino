@@ -1,4 +1,8 @@
 /*
+  This code was modified by Emily Hammes for use with the 8x7 
+  charlieplexed Hammes Hacksshield.
+
+  The origional code contained the following header: 
   TEXT SAMPLE CODE for LOL Shield for Arduino
   Copyright 2009/2010 Benjamin Sonntag <benjamin@sonntag.fr> http://benjamin.sonntag.fr/
   
